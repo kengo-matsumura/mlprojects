@@ -1,0 +1,7 @@
+# Key learnings:
+
+1. For classification problems, always look at the balance of majority and minority classes first.
+   This can be done using a simple count plot.
+   The metric trap occurs when using certain metrics to evaluate a classification model - using simple metrics like the
+   accuracy score can be misleading. This is because we can achieve high accuracy by simplying 'predicting' the majority class
+   for all cases, which would actually work most of the time!
