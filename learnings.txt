@@ -10,7 +10,8 @@
    For example, one-hot encoding a variable that contains the values 'blue', 'green' and 'white' will be highly correlated
    with each other. To avoid this, remove one of the dummy variables as the two remaining variables is enough
    to provide the same information, i.e. if 'green' is removed, then 'blue' = 0 and 'white' = 0 implies 'green'.
-   The principle is similar to Principal Component Analysis (PCA) where you are trying to reduce dimensionality while
+   The principle is similar to Principal Component Analysis (PCA) where you are trying to reduce dimensionality
    while still maintaining most of the information.
    
-   Make sure to plot your data (such as using Seaborn's heatmap, or looking at a scatter plot of all variables against each      other) and look at the correlation between features.
+   Make sure to plot your data (such as using Seaborn's heatmap, or looking at a scatter plot of all variables against each
+   other) and look at the correlation between features.
